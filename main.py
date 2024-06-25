@@ -106,13 +106,13 @@ def main():
                 for i, cls in enumerate(result.boxes.cls):
                     # ct_targets_head.append(result.boxes.xywh[i])
                     if cls == 1:
-                        ct_targets_head.append(result.boxes.xywh[i])
+                        ct_targets_head.append(result.boxes.xywh[i].cpu().numpy())
                     elif cls == 4:
-                        t_targets_head.append(result.boxes.xywh[i])
+                        t_targets_head.append(result.boxes.xywh[i].cpu().numpy())
                     elif cls == 0:
-                        ct_targets_body.append(result.boxes.xywh[i])
+                        ct_targets_body.append(result.boxes.xywh[i].cpu().numpy())
                     elif cls == 3:
-                        t_targets_body.append(result.boxes.xywh[i])
+                        t_targets_body.append(result.boxes.xywh[i].cpu().numpy())
                     else:
                         continue
 

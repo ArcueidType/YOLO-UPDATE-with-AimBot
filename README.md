@@ -2,9 +2,11 @@
 
 The detailed report in `Report.pdf` in the root dir
 
-Model config file and codes in **[ultralytics/cfg/models](ultralytics/cfg/models)** and **[ultralytics/nn](ultralytics/nn)**
+Model config file and codes in **[ultralytics/cfg/models](ultralytics/cfg/models)** and **[ultralytics/nn](ultralytics/nn)**, Shuffle Attention implemented in **[ultralytics/nn/modules/shuffleattention.py](ultralytics/nn/modules/shuffleattention.py)**
 
-All the scale used is n which will make `channels` to `0.25 * channels` 
+**`parse_model` function in `tasks.py` is changed to parse the new component**
+
+All the scale used is `n` which will make `channels` to `0.25 * channels` 
 
 You can just modify the `n` in`yolov8n-**` in train files to use more powerful models which requires hardware supports, especially a strong enough GPU.
 
