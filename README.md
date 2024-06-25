@@ -1,6 +1,6 @@
 # YOLOv8 Upgrade and AimBot
 
-The detailed report in `Report.pdf` in the root dir
+**The detailed report in `Report.pdf` in the root dir**
 
 Model config file and codes in **[ultralytics/cfg/models](ultralytics/cfg/models)** and **[ultralytics/nn](ultralytics/nn)**, Shuffle Attention implemented in **[ultralytics/nn/modules/shuffleattention.py](ultralytics/nn/modules/shuffleattention.py)**
 
