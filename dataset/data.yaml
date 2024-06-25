@@ -1,0 +1,13 @@
+train: D:\program\AimBot\dataset\train\images
+val: D:\program\AimBot\dataset\valid\images
+test: D:\program\AimBot\dataset\test\images
+
+nc: 5
+names: ['CT-Body', 'CT-Head', 'Dead', 'T-Body', 'T-Head']
+
+roboflow:
+  workspace: my-projects-qc3c9
+  project: counter-strike-3
+  version: 4
+  license: Public Domain
+  url: https://universe.roboflow.com/my-projects-qc3c9/counter-strike-3/dataset/4

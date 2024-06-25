@@ -1,0 +1,9 @@
+SCAN_REGION_WIDTH = 320
+SCAN_REGION_HEIGHT = 320
+MODEL = r'./models/aimbot/yolov8-4detect.pt'
+CONFIDENCE_THRESHOLD = 0.4
+QUIT_KEY = 'Q'
+MODE = 0    # 0 ALL, 1 CT Target, 2 T Target
+MOUSE_MOVE_RATE = 1
+HEAD_SHOT_MODE = True
+VISUAL = True
