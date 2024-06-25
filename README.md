@@ -74,7 +74,7 @@ Config the `DATASET`, `epochs`, `batch` in the corresponding train python file t
 python3 train_yolov8sa3.py
 ```
 
-## YOLOv8 with 4 Detect Head (YOLOv8-Detect4)
+## YOLOv8 with 4 Detect Head (YOLOv8-4Detect)
 
 Train YOLOv8-4Detect:
 
