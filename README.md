@@ -2,6 +2,8 @@
 
 **The detailed report in `Report.pdf` in the root dir**
 
+**The slides for presentation is `Presentation.pptx`**
+
 Model config file and codes in **[ultralytics/cfg/models](ultralytics/cfg/models)** and **[ultralytics/nn](ultralytics/nn)**, Shuffle Attention implemented in **[ultralytics/nn/modules/shuffleattention.py](ultralytics/nn/modules/shuffleattention.py)**
 
 **`parse_model` function in `tasks.py` is changed to parse the new component**
